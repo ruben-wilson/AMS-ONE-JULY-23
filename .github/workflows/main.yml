@@ -11,8 +11,8 @@ jobs:
         sudo apt install -y util-linux
     - name: Run Cal
       run: echo "hello world"
-#     - name: Run after script
-#       run: cd
+    - name: Run after script
+      run: cd ./AMS-ONE-JULY-23/
     - name: run script
       run: bash ./script.sh
 
