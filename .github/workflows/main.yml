@@ -10,9 +10,9 @@ jobs:
         sudo apt update
         sudo apt install -y util-linux
     - name: Run Cal
-      run: echo "hello world"; ls
+      run: echo "hello world"
+    - name: Run after script
+      run: ls -la
     - name: run script
       run: ./script.sh
-    - name: Run after script
-      run: echo "hello script"
 
