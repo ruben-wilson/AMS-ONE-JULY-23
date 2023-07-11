@@ -1,6 +1,5 @@
 on:
-  schedule: 
-    - cron: '0/5 * * * *'
+ workflow_dispatch:
 jobs:
   my_job:
     name: deploy to staging
