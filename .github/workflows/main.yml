@@ -1,5 +1,6 @@
 on:
-  workflow_dispatch:
+  schedule: 
+    - cron: '0/5 * * * *'
 jobs:
   my_job:
     name: deploy to staging
@@ -11,4 +12,5 @@ jobs:
         sudo apt install -y util-linux
     - name: Run Cal
       run: echo "hello world"
-      
+    
+
