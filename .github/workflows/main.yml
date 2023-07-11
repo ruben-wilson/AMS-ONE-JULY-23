@@ -12,7 +12,7 @@ jobs:
     - name: Run Cal
       run: echo "hello world"
     - name: run script
-      working-directory: src/webclient
+      working-directory: AMS-ONE-JULY-23
       run: bash ./script.sh
 #     - name: run script
 #       run: bash ./script.sh
