@@ -12,7 +12,7 @@ jobs:
     - name: Run Cal
       run: echo "hello world"
     - name: run script
-      run: sh script.sh
+      run: ./script.sh
     - name: Run after script
       run: echo "hello script"
 
