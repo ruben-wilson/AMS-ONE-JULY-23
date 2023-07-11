@@ -1,0 +1,14 @@
+on:
+  workflow_dispatch:
+jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Install call
+      run: |
+        sudo apt update
+        sudo apt install -y util-linux
+    - name: Run Cal
+      run: echo "hello world"
+      
