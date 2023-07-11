@@ -5,6 +5,7 @@ jobs:
     name: deploy to staging
     runs-on: ubuntu-20.04
     steps:
+    - uses: actions/checkout@v2
     - name: Install call
       run: |
         sudo apt update
@@ -12,7 +13,6 @@ jobs:
     - name: Run Cal
       run: echo "hello world"
     - name: run script
-      working-directory: AMS-ONE-JULY-23
       run: bash ./script.sh
 #     - name: run script
 #       run: bash ./script.sh
