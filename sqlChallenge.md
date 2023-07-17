@@ -1,8 +1,5 @@
-# Challenges using the sakila db
+# Challenges sakila db
 
-## Intro
-
-You will need to use the sakila database to solve these problems.
 
 ## Tasks
 
